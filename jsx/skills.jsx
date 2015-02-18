@@ -23,7 +23,7 @@ var SkillsClass = React.createClass({
 
     render: function() {
         return (
-            <ul>
+            <ul className="skills">
                 {
                     this.state.skills.map(function(skill) {
                         return <li>{skill}</li>

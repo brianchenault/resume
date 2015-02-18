@@ -1,0 +1,15 @@
+html, body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.skills {
+  li {
+    display:inline-block;
+    margin:20px;
+    padding:8px 30px;
+    background:#87cefa;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+  }
+}

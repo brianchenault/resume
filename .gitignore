@@ -1,5 +1,5 @@
 .idea
 .DS_Store
 node_modules
-dist
+public/dist
 js/skills.js

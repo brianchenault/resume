@@ -1,7 +1,10 @@
 'use strict';
-var app = require('./server/app.js');
+var app = require('./app.js');
 var gulp = require('gulp');
+var minifyCss = require('gulp-minify-css');
 var react = require('gulp-react');
+var sass = require('gulp-sass');
+var uglify = require('gulp-uglify');
 var webpack = require('gulp-webpack');
 var webpackConfig = require('./webpack.config.js');
 
@@ -11,10 +14,18 @@ gulp.task('jsx', function() {
         .pipe(gulp.dest('./js'));
 });
 
-gulp.task('webpack', ['jsx'], function() {
+gulp.task('sass', function() {
+    return gulp.src('./sass/*.scss')
+        .pipe(sass())
+        .pipe(minifyCss())
+        .pipe(gulp.dest('./public/dist'));
+});
+
+gulp.task('webpack', ['jsx', 'sass'], function() {
     return gulp.src('./js/app.js')
         .pipe(webpack(webpackConfig))
-        .pipe(gulp.dest('./dist'));
+        .pipe(uglify())
+        .pipe(gulp.dest('./public/dist'));
 });
 
 gulp.task('default', ['webpack'], function() {
