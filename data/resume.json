@@ -1,0 +1,27 @@
+{
+  "personal": {
+    "name": "Brian D. Chenault",
+    "street": "78 Oak Forest Circle",
+    "city": "Charlotesville",
+    "state": "VA",
+    "zip": "22901"
+  },
+  "skills": [
+    "Javascript",
+    "Node",
+    "Backbone",
+    "Marionette",
+    "Angular",
+    "React",
+    "jQuery",
+    "HTML5",
+    "CSS",
+    "SASS",
+    "Git",
+    "Grunt/Gulp/Webpack/Browserify, etc",
+    "Responsive web design",
+    "REST",
+    "Agile",
+    "PHP/Wordpress"
+  ]
+}
