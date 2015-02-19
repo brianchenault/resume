@@ -1,15 +1,50 @@
 html, body {
   font-family: 'Titillium Web', sans-serif;
+  margin: 0 auto;
 }
 
-.skills {
+h2 {
+  margin: 30px auto;
+  text-align: center;
+  font-size: 1.6em;
+}
+
+#content {
+  margin-top: 30px;
+}
+
+#personal {
+  text-align: center;
+  padding-bottom: 10px;
+
+  #name {
+    font-size: 2.8em;
+    padding-bottom: 20px;
+  }
+}
+
+#personal {
+  #city, #state {
+    display: inline-block;
+  }
+}
+
+#skills {
   li {
-    display:inline-block;
-    margin:20px;
-    padding:8px 30px;
-    background:#87cefa;
+    display: inline-block;
+    margin: 20px;
+    padding: 8px 30px;
+    background: #87cefa;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+    -webkit-transition: background-color .5s, -webkit-transform .5s;
+
+    &:hover {
+      cursor: pointer;
+      background: #9acd32;
+      -webkit-transform:rotate(360deg);
+      transform:rotate(360deg);
+    }
   }
 }

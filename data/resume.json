@@ -22,9 +22,30 @@
     "Gulp",
     "Browserify",
     "Webpack",
-    "Responsive web design",
+    "Responsive web",
     "REST",
     "Agile",
-    "PHP/Wordpress"
+    "PHP",
+    "Wordpress"
+  ],
+  "jobs": [
+    {
+      "sort": 1,
+      "company": "Resolvit, Inc",
+      "dateStart": "12/2014",
+      "dateEnd": "2/2014",
+      "bullets": [
+
+      ]
+    },
+    {
+      "sort": 2,
+      "company": "Resolvit, Inc",
+      "dateStart": "12/2014",
+      "dateEnd": "2/2014",
+      "bullets": [
+
+      ]
+    }
   ]
 }
