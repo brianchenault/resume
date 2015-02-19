@@ -4,7 +4,10 @@
     "street": "78 Oak Forest Circle",
     "city": "Charlotesville",
     "state": "VA",
-    "zip": "22901"
+    "zip": "22901",
+    "email": "brian at brianchenault dot com",
+    "github": "https://github.com/brianchenault",
+    "education": "BM, James Madison University (cum laude)"
   },
   "skills": [
     "Javascript",
@@ -28,23 +31,76 @@
     "PHP",
     "Wordpress"
   ],
-  "jobs": [
+  "experience": [
     {
-      "sort": 1,
+      "sort": 0,
       "company": "Resolvit, Inc",
       "dateStart": "12/2014",
       "dateEnd": "2/2014",
+      "title": "Consultant",
       "bullets": [
-
+        "Maintained and enhanced Cisco’s internal application (Angular front-end) for managing information about their service lifecycles.",
+        "Assisted in integrating SASS and Bower into Maven build process"
+      ]
+    },
+    {
+      "sort": 1,
+      "company": "WillowTree Apps",
+      "dateStart": "1/2013",
+      "dateEnd": "12/2014",
+      "title": "Web Application Developer",
+      "bullets": [
+        "Sole front-end developer for the version 1 of http://fairshare.it/, developed using Backbone.",
+        "Sole front-end developer on a web app for use on iPads by AOL advertising sales reps: http://vimeo.com/91459698",
+        "Lead developer/architect on a web app for Neighborworks America to allow their customers to create and manage their home-buying or home-owning information and process online. Will be launched in 2015. Created proxy REST APIs in Node/Express to integrate with SalesForce."
       ]
     },
     {
       "sort": 2,
-      "company": "Resolvit, Inc",
-      "dateStart": "12/2014",
-      "dateEnd": "2/2014",
+      "company": "Business Bullpen (now Storyware)",
+      "dateStart": "4/2011",
+      "dateEnd": "1/2013",
+      "title": "Software Developer",
       "bullets": [
-
+        "Built and maintained websites using .NET and PHP/Wordpress. Examples include bubuti.com, thescoutguide.com, opei.org, hokieclub.com, stylecrafthomes.com.",
+        "Assisted in development of custom Tumblr theme - http://mallowtheme.tumblr.com/.",
+        "Developed company mobile site."
+      ]
+    },
+    {
+      "sort": 3,
+      "company": "nTelos",
+      "dateStart": "6/2006",
+      "dateEnd": "4/2011",
+      "title": "Senior Systems Analyst",
+      "bullets": [
+        "Maintained and enhanced internal sales application to support land-based telecommunication services.",
+        "Developed a Windows service to support processing of mobile phone insurance claims.",
+        "Most development done in C#/ASP.NET/SQL Server."
+      ]
+    },
+    {
+      "sort": 4,
+      "company": "Growing Technologies",
+      "dateStart": "9/2004",
+      "dateEnd": "4/2006",
+      "title": "Software Developer",
+      "bullets": [
+        "Built and maintained websites for company clients using ASP.NET. This was a part-time, remote consulting gig, as I was traveling with my band at the time."
+      ]
+    },
+    {
+      "sort": 5,
+      "company": "Musictoday",
+      "dateStart": "9/2001",
+      "dateEnd": "9/2004",
+      "title": "Software Developer",
+      "bullets": [
+        "Worked on a team to integrate the company’s e-commerce application with Great Plains via BizTalk.",
+        "Designed and built web services to allow the company to accept fulfillment-only orders from 3rd party vendors.",
+        "Lead developer on the company’s Commerce Server/ASP 3.0 e-commerce system. Designed and built enhancements such as the ability for the company to sell and consume downloadable music, to sell any item as a pre-order, and to allow customers to select gift wrapping of purchases.",
+        "Helped business expand into new areas by contributing to .NET-related projects to provide fanclub and online ticketing services to clients.",
+        "Maintained legacy websites, including the Dave Matthews Band official site, the Dave Matthews Band fanclub site, and the company portal."
       ]
     }
   ]

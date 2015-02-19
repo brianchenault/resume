@@ -14,8 +14,8 @@ var SkillsClass = React.createClass({
         return (
             <ul className="skills">
                 {
-                    this.props.data.map(function(skill) {
-                        return <li>{skill}</li>
+                    this.props.data.map(function(skill, index) {
+                        return <li key={index}>{skill}</li>
                     })
                 }
             </ul>
