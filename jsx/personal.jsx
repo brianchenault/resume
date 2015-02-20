@@ -4,12 +4,6 @@
 var React = require('react');
 
 var PersonalClass = React.createClass({
-    getInitialState: function() {
-        return {
-            skills: []
-        };
-    },
-
     render: function() {
         return (
             <div id="personal">
