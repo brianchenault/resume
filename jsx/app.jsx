@@ -9,7 +9,8 @@ var ExperienceClass = require('./../js/experience');
 request.get('/resume').end(function(res) {
     var resume = JSON.parse(res.text);
     React.render(<PersonalClass data={resume.personal} />, document.getElementById('personal'));
-    React.render(<SkillsClass data={resume.skills} />, document.getElementById('skills'));
+    React.render(<SkillsClass data={resume.skillsNewer} />, document.getElementById('skillsNewer'));
+    React.render(<SkillsClass data={resume.skillsOlder} />, document.getElementById('skillsOlder'));
     React.render(<ExperienceClass data={resume.experience} />, document.getElementById('experience'));
 });
 

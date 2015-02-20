@@ -9,7 +9,7 @@
     "github": "https://github.com/brianchenault",
     "education": "BM, James Madison University (cum laude)"
   },
-  "skills": [
+  "skillsNewer": [
     "Javascript",
     "Node",
     "Backbone",
@@ -28,8 +28,18 @@
     "Responsive web",
     "REST",
     "Agile",
+    "Mac OSX"
+  ],
+  "skillsOlder": [
+    "C#",
+    "ASP.NET",
+    ".NET",
+    "SQL Server",
     "PHP",
-    "Wordpress"
+    "Wordpress",
+    "MySQL",
+    "SVN",
+    "Windows"
   ],
   "experience": [
     {

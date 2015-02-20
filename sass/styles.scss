@@ -1,17 +1,29 @@
+$blue: #87cefa;
+$brown: #f4a460;
+$green: #9acd32;
+$gray: #929591;
+
 html, body {
   font-family: 'Titillium Web', sans-serif;
   margin: 0 auto;
-  background: #fffff0;
+  background: #fff;
 }
 
 a {
-  color: #929591;
+  color: $gray;
+}
+
+h2, h3 {
+  margin: 30px auto;
+  text-align: center;
 }
 
 h2 {
-  margin: 30px auto;
-  text-align: center;
-  font-size: 1.6em;
+  font-size: 1.8em;
+}
+
+h3 {
+  font-size: 1.4em;
 }
 
 #content {
@@ -38,7 +50,24 @@ h2 {
   }
 }
 
-#skills {
+#skillsLegend {
+  margin: 0 auto 20px auto;
+  text-align: center;
+
+  span {
+    font-size:1em;
+  }
+
+  .newer {
+    color: $blue;
+  }
+
+  .older {
+    color: $brown;
+  }
+}
+
+.skills {
   max-width:800px;
   margin: 0 auto;
   text-align: center;
@@ -47,18 +76,33 @@ h2 {
     display: inline-block;
     margin: 20px;
     padding: 8px 30px;
-    background: #87cefa;
+    background: $blue;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+#skillsNewer {
+  li {
     -webkit-transition: background-color .5s, -webkit-transform .5s;
 
     &:hover {
       cursor: pointer;
-      background: #9acd32;
+      background: $green;
       -webkit-transform: rotate(360deg);
       transform: rotate(360deg);
     }
+  }
+}
+
+#skillsOlder {
+  li {
+    background: $brown;
   }
 }
 
@@ -70,6 +114,7 @@ h2 {
     max-width:800px;
 
     h3 {
+      text-align: left;
       font-size: 1.6em;
       padding-bottom: 12px;
     }
