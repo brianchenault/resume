@@ -7,6 +7,9 @@
     "type": "git",
     "url": "https://github.com/brianchenault/resume.git"
   },
+  "engines": {
+    "node": "0.10.x"
+  }
   "author": "Brian Chenault",
   "homepage": "https://github.com/brianchenault/resume",
   "devDependencies": {
